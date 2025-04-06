@@ -1,3 +1,45 @@
+// Shery.makeMagnet(".nav-list ul li a", {
+//   //Parameters are optional.
+//   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+//   duration: 1,
+// });
+Shery.mouseFollower({
+  //Parameters are optional.
+  skew: true,
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
+
+// Shery.imageMasker(".education-img" /* Element to target.*/, {
+//   //Parameters are optional.
+//   mouseFollower: true,
+//   text: "Dipt@",
+//   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+//   duration: 1,
+// });
+
+Shery.makeMagnet(".btn");
+// Shery.imageEffect(".education-img", {
+//   style: 4,
+//   debug: true,
+//   gooey: true,
+// });
+Shery.makeMagnet(".home-content h1 span" /* Element to target.*/, {
+  //Parameters are optional.
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+  debug: true,
+});
+Shery.textAnimate(".home-content h1" /* Element to target.*/, {
+  //Parameters are optional.
+  style: 2,
+  y: 10,
+  delay: 0.1,
+  duration: 2,
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  multiplier: 0.2,
+});
+
 const hamburger = document.querySelector(
   ".header .nav-bar .nav-list .hamburger"
 );
@@ -31,7 +73,7 @@ menu_item.forEach((item) => {
 //
 
 //
-let main = document.querySelector(".page1");
+let main = document.querySelector(".page12");
 let cursor = document.querySelector(".cursor");
 
 main.addEventListener("mousemove", function (det) {
@@ -83,3 +125,9 @@ menu.addEventListener("click", () => {
 //     scale: 0,
 //   });
 // });
+
+//
+
+// import Shery from "sheryjs"; /*Don't use if using CDN*/
+
+// Shery.mouseFollower();

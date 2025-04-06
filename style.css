@@ -984,8 +984,8 @@ section .home {
 }
 
 #hero .home .home-img img:hover {
-  transform: scale(1.02); /* Enlarges the image slightly */
-  box-shadow: 0 0 222px #f80404d7; /* Increases shadow on hover */
+  transform: scale(1.02);
+  box-shadow: 0 0 222px #f80404d7;
 }
 
 .social-icons a {
