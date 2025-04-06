@@ -8,7 +8,9 @@ Shery.mouseFollower({
   skew: true,
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
+  // mixblendmode:normal,
 });
+Shery.makeMagnet(".progress");
 
 // Shery.imageMasker(".education-img" /* Element to target.*/, {
 //   //Parameters are optional.
@@ -28,8 +30,8 @@ Shery.makeMagnet(".home-content h1 span" /* Element to target.*/, {
   //Parameters are optional.
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
-  debug: true,
 });
+
 Shery.textAnimate(".home-content h1" /* Element to target.*/, {
   //Parameters are optional.
   style: 2,
