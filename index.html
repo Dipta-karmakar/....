@@ -1,389 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
-    <!-- Recommended -->
 
-    <link rel="stylesheet" href="style.css" />
-    <title>Dipta Prattoy Karmakar</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+  <!-- Recommended -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-  <body>
-    <div id="main">
-      <div class="page1">
-        <div class="cursor"></div>
-        <!-- Header -->
-        <section id="header">
-          <div class="header container">
-            <div class="nav-bar">
-              <div class="brand">
-                <a href="#hero">
-                  <h1><span>Dipt@</span><span></span></h1>
-                </a>
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Dipta Prattoy Karmakar</title>
+</head>
+
+<body>
+  <div id="main">
+    <div class="page1">
+      <div class="cursor"></div>
+      <!-- Header -->
+      <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero">
+                <h1><span>Dipt@</span><span></span></h1>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
               </div>
-              <div class="nav-list">
-                <div class="hamburger">
-                  <div class="bar"></div>
-                </div>
-                <ul>
-                  <li><a href="#hero" data-after="Home">Home</a></li>
-                  <li><a href="#services" data-after="Service">Services</a></li>
-                  <li>
-                    <a href="#projects" data-after="Projects">Projects</a>
-                  </li>
-                  <li><a href="#about" data-after="About">About</a></li>
-                  <li>
-                    <a href="#education" data-after="Education">Education</a>
-                  </li>
-                  <li>
-                    <a href="#skills" data-after="Skills">Skills</a>
-                  </li>
-                  <li><a href="#contact" data-after="Contact">Contact</a></li>
-                </ul>
-              </div>
+              <ul>
+                <li><a href="#hero" data-after="Home">Home</a></li>
+                <li><a href="#services" data-after="Service">Services</a>
+
+
+                </li>
+                <li>
+                  <a href="#projects" data-after="Projects">Projects</a>
+                </li>
+                <!-- <li>
+                    <a href="#projects" data-after="Projects" class="hover:text-blue-400 cursor-pointer">Projects</a>
+
+                    Dropdown Items
+                    <ul class="dropdown">
+                      <li><a href="#project1" >Project 1</a></li>
+                      <li><a href="#project2">Project 2</a></li>
+                      <li><a href="#project3">Project 3</a></li>
+                      <li><a href="#project4" >Project 4</a></li>
+                    </ul>
+                  </li> -->
+
+
+                <li><a href="#about" data-after="About">About</a></li>
+                <li>
+                  <a href="#education" data-after="Education">Education</a>
+                </li>
+                <li>
+                  <a href="#skills" data-after="Skills">Skills</a>
+                </li>
+                <li><a href="#contact" data-after="Contact">Contact</a></li>
+              </ul>
             </div>
           </div>
-        </section>
-        <!-- End Header -->
+        </div>
+      </section>
+      <!-- End Header -->
 
-        <!-- Hero Section  -->
-        <section id="hero">
-          <div class="hero container">
-            <section class="home">
-              <div class="home-img">
-                <img class="image" src="main1.JPG" alt="" />
+      <!-- Hero Section  -->
+      <section id="hero">
+        <div class="hero container">
+          <section class="home">
+            <div class="home-img">
+              <img class="image" src="main1.JPG" alt="" />
+            </div>
+            <div class="home-content">
+              <h1>Hi, It's <span>Dipta</span></h1>
+              <h3 class="typing-text">I'm a <span></span></h3>
+              <p>
+                A passionate full-stack web developer specializing in the MERN
+                stack. I build dynamic, scalable, and user-friendly web
+                applications with a focus on clean code and seamless
+                experiences. Always eager to innovate and explore new
+                technologies to create impactful digital solutions.
+              </p>
+              <div class="social-icons">
+                <a href="http://linkedin.com/in/dipta-prattoy-karmakar" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Dipta-karmakar" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/dipta.karmakar.927?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank"
+                  rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/dipta_karmakar?igsh=MXhzeDkwZmRhZGhnZg%3D%3D&utm_source=qr"
+                  target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
               </div>
-              <div class="home-content">
-                <h1>Hi, It's <span >Dipta</span></h1>
-                <h3 class="typing-text">I'm a <span></span></h3>
-                <p>
-                  A passionate full-stack web developer specializing in the MERN
-                  stack. I build dynamic, scalable, and user-friendly web
-                  applications with a focus on clean code and seamless
-                  experiences. Always eager to innovate and explore new
-                  technologies to create impactful digital solutions.
-                </p>
-                <div class="social-icons">
-                  <a
-                    href="http://linkedin.com/in/dipta-prattoy-karmakar"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-linkedin"></i
-                  ></a>
-                  <a
-                    href="https://github.com/Dipta-karmakar"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-github"></i
-                  ></a>
-                  <a
-                    href="https://www.facebook.com/dipta.karmakar.927?mibextid=wwXIfr&mibextid=wwXIfr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-facebook"></i
-                  ></a>
-                  <a
-                    href="https://www.instagram.com/dipta_karmakar?igsh=MXhzeDkwZmRhZGhnZg%3D%3D&utm_source=qr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    ><i class="fa-brands fa-instagram"></i
-                  ></a>
-                </div>
-                <a href="#" class="btn">Hire me</a>
-              </div>
-            </section>
-          </div>
-        </section>
-        <!-- End Hero Section  -->
-      </div>
+              <a href="#" class="btn">Hire me</a>
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- End Hero Section  -->
+    </div>
 
-      <!-- Service Section -->
-      <section id="services">
-        <div class="services container">
-          <div class="service-top">
-            <h1 class="section-title">Serv<span>i</span>ces</h1>
+    <!-- Service Section -->
+    <section id="services">
+      <div class="services container">
+        <div class="service-top">
+          <h1 class="section-title">Serv<span>i</span>ces</h1>
+          <p>
+            Providing end-to-end web development services, including custom
+            website design, front-end and back-end development, and full-stack
+            solutions. Expertise in creating responsive, scalable websites
+            using technologies like React, Node.js, and MongoDB. Services also
+            include SEO optimization, website maintenance, e-commerce
+            development, API integrations, and cloud hosting. Focus on
+            delivering secure, high-performance websites that offer seamless
+            user experiences and easy content management.
+          </p>
+        </div>
+        <div class="service-bottom">
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
+            </div>
+            <h2>Custom Website Development</h2>
             <p>
-              Providing end-to-end web development services, including custom
-              website design, front-end and back-end development, and full-stack
-              solutions. Expertise in creating responsive, scalable websites
-              using technologies like React, Node.js, and MongoDB. Services also
-              include SEO optimization, website maintenance, e-commerce
-              development, API integrations, and cloud hosting. Focus on
-              delivering secure, high-performance websites that offer seamless
-              user experiences and easy content management.
+              Design and development of fully responsive, custom-built
+              websites tailored to specific business or personal needs,
+              ensuring optimal performance and scalability.
             </p>
           </div>
-          <div class="service-bottom">
-            <div class="service-item">
-              <div class="icon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/services.png"
-                />
-              </div>
-              <h2>Custom Website Development</h2>
-              <p>
-                Design and development of fully responsive, custom-built
-                websites tailored to specific business or personal needs,
-                ensuring optimal performance and scalability.
-              </p>
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
             </div>
-            <div class="service-item">
-              <div class="icon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/services.png"
-                />
-              </div>
-              <h2>SEO & Performance Optimization</h2>
-              <p>
-                SEO services to enhance visibility on search engines, along with
-                performance optimization techniques like image compression and
-                caching for faster load times.
-              </p>
+            <h2>SEO & Performance Optimization</h2>
+            <p>
+              SEO services to enhance visibility on search engines, along with
+              performance optimization techniques like image compression and
+              caching for faster load times.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
             </div>
-            <div class="service-item">
-              <div class="icon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/services.png"
-                />
-              </div>
-              <h2>API Development & Integration</h2>
-              <p>
-                Custom API development and third-party API integrations,
-                enhancing functionality and connectivity for web applications
-                and external services like Google Maps and Stripe.
-              </p>
+            <h2>API Development & Integration</h2>
+            <p>
+              Custom API development and third-party API integrations,
+              enhancing functionality and connectivity for web applications
+              and external services like Google Maps and Stripe.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
             </div>
-            <div class="service-item">
-              <div class="icon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/services.png"
-                />
-              </div>
-              <h2>Web Security & Website Maintenance</h2>
-              <p>
-                Implementation of security measures <br />
-                such as HTTPS, SSL certificates, data encryption, and firewalls
-                to <br />
-                protect websites from potential <br />
-                threats.
-              </p>
-            </div>
+            <h2>Web Security & Website Maintenance</h2>
+            <p>
+              Implementation of security measures <br />
+              such as HTTPS, SSL certificates, data encryption, and firewalls
+              to <br />
+              protect websites from potential <br />
+              threats.
+            </p>
           </div>
         </div>
-      </section>
-      <!-- End Service Section -->
+      </div>
+    </section>
+    <!-- End Service Section -->
 
-      <!-- Projects Section -->
-      <section id="projects">
-        <div class="projects container">
-          <div class="projects-header">
-            <h1 class="section-title">Recent <span>Projects</span></h1>
-          </div>
-          <div class="all-projects">
-            <div class="project-item">
-              <div class="project-info">
-                <h1>☑️DUO Studio</h1>
-                <h2>
-                  Link-🔗<a
-                    href="https://dipta-karmakar.github.io/october.github.io/"
-                    target="_blank"
-                  >
-                    CLICK HERE
-                  </a>
-                </h2>
-                <p>
-                  This project is a website designed with a modern and clean
-                  interface. The website ensures a seamless user experience
-                  across various devices, from desktop to mobile.The design
-                  emphasizes functionality, usability, and visual appeal, making
-                  it an intuitive and accessible platform for users.
-                  <br />
-                  <br />
-                  ✨ Key Features: <br />
-                  🎯 Scroll-based animations using GSAP and ScrollTrigger
-                  <br />🎥Clean and modern user interface.<br />🧩 Interactive
-                  elements with smooth animations and transitions.<br />
-                  🛠 Tech Stack: Frontend: HTML5, CSS3, JavaScript (ES6)
-                  Animations: GSAP, ScrollTrigger, Lenis Deployment: Netlify /
-                  Vercel
-                </p>
-              </div>
-              <div class="project-img">
-                <a
-                  href="https://dipta-karmakar.github.io/october.github.io/"
-                  target="_blank"
-                >
-                  <img src="./img/duo.png" alt="img" />
-                </a>
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="project-info">
-                <h1>☀️Sundown Studio</h1>
-                <!-- <h2>Coding is Love</h2> -->
-                <p>
-                  🌇 Sundown Studio-Inspired Creative Agency Website A sleek and
-                  visually rich creative agency website built with a focus on
-                  immersive animations, smooth scrolling, and modern UI/UX
-                  principles. Designed to emulate the feel of high-end studio
-                  portfolios with a minimalistic yet impactful aesthetic.
-                  <br />
-                  <br />
-                  ✨ Key Features: <br />
-                  🎯 Scroll-based animations using GSAP and ScrollTrigger
-                  <br />🎥 Smooth scrolling experience with Lenis 🧩 Modular,
-                  component-based design <br />🖼️ Interactive image transitions
-                  and hover effects <br />
-                  🛠 Tech Stack: Frontend: HTML5, CSS3, JavaScript (ES6)
-                  Animations: GSAP, ScrollTrigger, Lenis Deployment: Netlify /
-                  Vercel
-                </p>
-              </div>
-              <div class="project-img">
-                <img src="./img/p1.png" alt="img" />
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="project-info">
-                <h1>🟥SQUARESPACE</h1>
-                <!-- <h2>Coding is Love</h2> -->
-                <p>
-                  🧱 Modern Business Landing Page – A clean, responsive, and
-                  elegant business landing page designed with a modern aesthetic
-                  and a focus on smooth transitions, minimalism, and
-                  high-performance UI. The layout draws inspiration from
-                  platforms like Squarespace, offering a polished and
-                  user-friendly experience.
-                  <br />
-                  <br />
-                  ✨ Key Features:
-                  <br />
-                  💻 Hero section with smooth text/image reveal animations
-                  <br />
-                  🎯 Scroll-based motion effects using GSAP
-                  <br />
-                  ⚡ Optimized for performance and responsiveness
-                  <br />
-                  <br />
-                  🛠 Tech Stack: Frontend: HTML5, CSS3 (or Tailwind CSS),
-                  JavaScript Animations: GSAP, ScrollTrigger
-                </p>
-              </div>
-              <div class="project-img">
-                <img src="./img/p2.png" alt="img" />
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="project-info">
-                <h1>©️COUCHER</h1>
-                <!-- <h2>Coding is Love</h2> -->
-                <p>
-                  A visually striking portfolio-style website crafted with bold
-                  typography, immersive scroll interactions, and creative layout
-                  transitions. Inspired by the design language of modern digital
-                  studios like Coucher, this project focuses on expressive UI
-                  and smooth user experience.
-                  <br />
-                  <br />
-                  ✨ Key Features:
-                  <br />
-
-                  🌀 Scroll-triggered animations using GSAP & Lenis
-                  <br />
-
-                  🔠 Bold hero section with animated typography
-                  <br />
-
-                  🎥 Hover and transition effects for visual storytelling
-                  <br />
-
-                  <br />
-                  🛠 Tech Stack: Frontend: HTML5, CSS3 (or Tailwind CSS),
-                  JavaScript Animations: GSAP, ScrollTrigger, Lenis
-                </p>
-              </div>
-              <div class="project-img">
-                <img src="./img/p3.png" alt="img" />
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="project-info">
-                <h1>🌀 Interactive Motion-Powered Web Page</h1>
-                <!-- <h2>Coding is Love</h2> -->
-                <p>
-                  A creative, scroll-driven web experience built with GSAP
-                  ScrollTrigger, focused on delivering engaging animations tied
-                  to the user's scroll behavior.
-                  <br /><br />
-                  ✨ Key Features:
-                  <br />
-                  🎯 Scroll-based animations using GSAP + ScrollTrigger
-                  <br />
-                  🎥 Smooth image/text transitions synced with scroll
-                  <br />
-                  🧩 Clean, reusable animation components
-                  <br /><br />
-                  🛠 Tech Stack: Frontend: HTML5, CSS3, JavaScript (ES6)
-                  Animations: GSAP, ScrollTrigger, Lenis (for smooth scroll)
-                </p>
-              </div>
-              <div class="project-img">
-                <img src="./img/p4.png" alt="img" />
-              </div>
-            </div>
-            <div class="project-item">
-              <div class="project-info">
-                <h1>🌐 Personal Portfolio Website</h1>
-                <!-- <h2>Coding is Love</h2> -->
-                <p>
-                  A modern, fully responsive portfolio website designed and
-                  developed to reflect my skills, personality, and projects.
-                  Built with performance, aesthetics, and user experience in
-                  mind, it serves as a central hub for all my work—from web
-                  development to creative showcases.
-                  <br /><br />
-                  ✨ Key Features:
-                  <br />
-                  👨‍💻 Smooth scrolling and animated transitions with GSAP /
-                  Framer Motion
-                  <br />
-
-                  🧭 Intuitive navigation
-                  <br /><br />
-                  🛠 Tech Stack: Frontend:HTML, CSS ,JS Animations: Framer Motion
-                  / GSAP
-                </p>
-              </div>
-              <div class="project-img">
-                <img src="./img/portfolio.png" alt="img" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Projects Section -->
-
-      <!-- skills -->
-      <!--
+    <!-- skills -->
+    <!--
       <section id="skill">
         <div class="skill container">
           <div class="skill-top">
@@ -459,14 +252,8 @@
               <div class="mb-3">
                 <label>HTML & CSS</label>
                 <div class="progress">
-                  <div
-                    class="progress-bar bg-primary"
-                    role="progressbar"
-                    style="width: 90%"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
+                  <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">
                     90%
                   </div>
                 </div>
@@ -475,14 +262,8 @@
               <div class="mb-3">
                 <label>JavaScript</label>
                 <div class="progress">
-                  <div
-                    class="progress-bar bg-success"
-                    role="progressbar"
-                    style="width: 80%"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100">
                     80%
                   </div>
                 </div>
@@ -491,14 +272,8 @@
               <div class="mb-3">
                 <label>React.js</label>
                 <div class="progress">
-                  <div
-                    class="progress-bar bg-info"
-                    role="progressbar"
-                    style="width: 75%"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
+                  <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">
                     75%
                   </div>
                 </div>
@@ -507,14 +282,8 @@
               <div class="mb-3">
                 <label>Node.js</label>
                 <div class="progress">
-                  <div
-                    class="progress-bar bg-warning"
-                    role="progressbar"
-                    style="width: 70%"
-                    aria-valuenow="70"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100">
                     70%
                   </div>
                 </div>
@@ -522,14 +291,8 @@
               <div class="mb-3">
                 <label>Next.js</label>
                 <div class="progress">
-                  <div
-                    class="progress-bar bg-success"
-                    role="progressbar"
-                    style="width: 80%"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 80%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100">
                     80%
                   </div>
                 </div>
@@ -537,14 +300,8 @@
               <div class="mb-3">
                 <label>MongoDB</label>
                 <div class="progress">
-                  <div
-                    class="progress-bar bg-Primary"
-                    role="progressbar"
-                    style="width: 90%"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
+                  <div class="progress-bar bg-Primary" role="progressbar" style="width: 90%" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">
                     90%
                   </div>
                 </div>
@@ -553,14 +310,8 @@
               <div class="mb-3">
                 <label>MySQL</label>
                 <div class="progress">
-                  <div
-                    class="progress-bar bg-warning"
-                    role="progressbar"
-                    style="width: 65%"
-                    aria-valuenow="65"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  >
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 65%" aria-valuenow="65"
+                    aria-valuemin="0" aria-valuemax="100">
                     65 %
                   </div>
                 </div>
@@ -571,185 +322,415 @@
       </section>
       <!--end skill skills -->
 
-      <!-- Education -->
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects(WEB)</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
 
-      <!-- EDUCATION Section -->
-      <section id="education">
-        <div class="education container">
-          <div class="education-header">
-            <h1 class="section-title"><span>education</span></h1>
+            <div class="project-img">
+              <a href="https://dipta-karmakar.github.io/october.github.io/" target="_blank">
+                <img src="./img/duo.png" alt="img" />
+              </a>
+            </div>
           </div>
-          <div class="all-education">
-            <div class="education-item">
-              <div class="education-info">
-                <h1>BSc. In Computer Science and Engineering (CSE)</h1>
-                <h2>American International University Bangladesh (AIUB)</h2>
-                <p>Expected Graduation August 2026</p>
-              </div>
-              <div class="education-img">
-                <img src="./img/uni.jpg" alt="img" />
-              </div>
-            </div>
-            <div class="education-item">
-              <div class="education-info">
-                <h1>Higher Secondary School Certificate</h1>
-                <h2>Ispahani Public School & College (IPSC)</h2>
-                <p>
-                  March 2020 <br />
-                  GPA: 5.0 out of 5.0
-                </p>
-              </div>
-              <div class="education-img">
-                <img src="./img/clg.jpg" alt="img" />
-              </div>
-            </div>
-            <div class="education-item">
-              <div class="education-info">
-                <h1>Secondary School Certificate</h1>
-                <h2>Kaneshtola High School</h2>
-                <p>
-                  Feb. 2018 <br />
+          <div class="project-item">
 
-                  GPA: 5.0 out of 5.0
-                </p>
-              </div>
-              <div class="education-img">
-                <img src="./img/school.jpeg" alt="img" />
-              </div>
+            <div class="project-img">
+              <img src="./img/p2.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+
+            <div class="project-img">
+              <img src="./img/p3.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+
+
+            <div class="project-img">
+              <img src="./img/p4.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+
+            <div class="project-img">
+              <img src="./img/portfolio.png" alt="img" />
             </div>
           </div>
         </div>
-      </section>
-      <!-- End EDUCATION Section -->
-      <!-- About Section -->
-      <section id="about">
-        <div class="about container">
-          <div class="col-left">
-            <div class="about-img">
-              <img class="img2" src="./img/dipta.jpg" alt="img" />
-            </div>
-          </div>
-          <div class="col-right">
-            <h1 class="section-title">About <span>me</span></h1>
-            <h2>Full Stack Developer</h2>
-            <p>
-              I am a dedicated full-stack web developer with a strong command of
-              modern web technologies. Specializing in the MERN stack, I craft
-              intuitive, high-performance web applications that blend
-              functionality with seamless user experiences. My expertise spans
-              both front-end and back-end development, ensuring scalable and
-              efficient solutions. Passionate about innovation and
-              problem-solving, I continuously strive to push the boundaries of
-              web development, transforming ideas into elegant digital
-              solutions.
-            </p>
-            <a href="#" class="cta">Download Resume</a>
-          </div>
-        </div>
-      </section>
-      <!-- End About Section -->
+      </div>
+    </section>
+    <!-- End Projects Section -->
 
-      <!-- Contact Section -->
-      <section id="contact">
-        <div class="contact container">
-          <div>
-            <h1 class="section-title">Contact <span>info</span></h1>
-          </div>
-          <div class="contact-items">
-            <div class="contact-item">
-              <div class="icon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/phone.png"
-                />
-              </div>
-              <div class="contact-info">
-                <h1>Phone</h1>
-                <h2>(+880)18923283</h2>
-                <h2>(+880)86982154</h2>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="icon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/new-post.png"
-                />
-              </div>
-              <div class="contact-info">
-                <h1>Email</h1>
-                <h2>diptakarmakar396@gmail.com</h2>
-                <!-- <h2>abcd@gmail.com</h2> -->
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="icon">
-                <img
-                  src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
-                />
-              </div>
-              <div class="contact-info">
-                <h1>Address</h1>
-                <h2>Kuratoli, Kuril Bishwa Road, Dhaka, Bangladesh</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
+    <!-- <section id="uni">
+      <div id="uni-projects">
 
-      <!-- Footer -->
-      <section id="footer">
-        <div class="footer container">
-          <div class="brand">
-            <h1><span>Dipt@</span><span></span></h1>
-          </div>
-          <h2>Your Complete Web Solution</h2>
-          <div class="social-icon">
-            <div class="social-item">
-              <a
-                href="https://www.facebook.com/dipta.karmakar.927?mibextid=wwXIfr&mibextid=wwXIfr"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
-              /></a>
-            </div>
-            <div class="social-item">
-              <a
-                href="https://www.instagram.com/dipta_karmakar?igsh=MXhzeDkwZmRhZGhnZg%3D%3D&utm_source=qr"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
-              /></a>
-            </div>
-            <div class="social-item">
-              <a
-                href="https://github.com/Dipta-karmakar"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="https://img.icons8.com/bubbles/100/000000/github.png"
-              /></a>
-            </div>
-            <div class="social-item">
-              <a
-                href="http://linkedin.com/in/dipta-prattoy-karmakar"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  src="https://img.icons8.com/bubbles/100/000000/linkedin.png"
-              /></a>
-            </div>
-          </div>
-          <p>Copyright © 2025 Dipta. All rights reserved</p>
+        <div class="java">
+          <div class="java-info"></div>
+          <div class="java-img"></div>
         </div>
-      </section>
 
-      <!-- End Footer -->
+        <div class="c" id="">
+          <div class="c#-info "></div>
+          <div class="c#-img"></div>
+        </div>
+        <div class="computer-graphics">
+          <div class="cg-info"></div>
+          <div class="cg-img"></div>
+        </div>
+
+      </div>
+    </section> -->
+<!-- cg_project -->
+<section id="cg-projects">
+  <div class="cg-projects container">
+    <div class="cg-projects-header">
+      <h1 class="section-title">COMPUTER GRAPHICS <span>Project(glut)</span></h1>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <div class="all-cg-projects">
+      <div class="cg-projects-item">
 
-    <!-- <script
+        <div class="cg-projects-img">
+          <a href="https://dipta-karmakar.github.io/october.github.io/" target="_blank">
+            <img src="./cg/CG1.png" alt="img" />
+          </a>
+        </div>
+      </div>
+      <div class="cg-projects-item">
+
+        <div class="cg-projects-img">
+          <img src="./cg/CG2.png" alt="img" />
+        </div>
+      </div>
+      <div class="cg-projects-item">
+
+        <div class="cg-projects-img">
+          <img src="./cg/CG3.png" alt="img" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <!--c#  Projects Section -->
+    <!-- <section id="c-s-projects">
+      <div class="c-s-projects container">
+        <div class="c-s-projects-header">
+          <h1 class="section-title">C# <span>Project</span></h1>
+        </div>
+        <div class="all-c-s-projects">
+          <div class="c-s-projects-item">
+
+            <div class="c-s-projects-img">
+              <a href="https://dipta-karmakar.github.io/october.github.io/" target="_blank">
+                <img src="./img/duo.png" alt="img" />
+              </a>
+            </div>
+          </div>
+          <div class="c-s-projects-item">
+
+            <div class="c-s-projects-img">
+              <img src="./img/p2.png" alt="img" />
+            </div>
+          </div>
+          <div class="c-s-projects-item">
+
+            <div class="c-s-projects-img">
+              <img src="./img/p3.png" alt="img" />
+            </div>
+          </div>
+          <div class="c-s-projects-item">
+
+
+            <div class="c-s-projects-img">
+              <img src="./img/p4.png" alt="img" />
+            </div>
+          </div>
+          <div class="c-s-projects-item">
+
+            <div class="project-img">
+              <img src="./img/portfolio.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End c# Projects Section -->
+
+    <section id="u-projects">
+      <div class="u-projects container">
+        <div class="u-projects-header">
+          <h1 class="section-title">JAVA <span>Project</span></h1>
+        </div>
+        <div class="all-u-projects">
+          <div class="u-projects-item">
+
+            <div class="u-projects-img">
+              <a href="https://dipta-karmakar.github.io/october.github.io/" target="_blank">
+                <img src="./java/j1.png" alt="img" />
+              </a>
+            </div>
+          </div>
+          <div class="u-projects-item">
+
+            <div class="u-projects-img">
+              <img src="./java/j2.png" alt="img" />
+            </div>
+          </div>
+          <div class="u-projects-item">
+
+            <div class="u-projects-img">
+              <img src="./java/j3.png" alt="img" />
+            </div>
+          </div>
+          <div class="u-projects-item">
+
+
+            <div class="u-projects-img">
+              <img src="./java/j4.png" alt="img" />
+            </div>
+          </div>
+          <div class="u-projects-item">
+
+            <div class="u-projects-img">
+              <img src="./java/j5.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Education -->
+
+    <!-- EDUCATION Section -->
+    <section id="education">
+      <div class="education container">
+        <div class="education-header">
+          <h1 class="section-title"><span>education</span></h1>
+        </div>
+        <div class="all-education">
+          <div class="education-item">
+            <div class="education-info">
+              <h1>BSc. In Computer Science and Engineering (CSE)</h1>
+              <h2>American International University Bangladesh (AIUB)</h2>
+              <p>Expected Graduation August 2026</p>
+            </div>
+            <div class="education-img">
+              <img src="./img/uni.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-info">
+              <h1>Higher Secondary School Certificate</h1>
+              <h2>Ispahani Public School & College (IPSC)</h2>
+              <p>
+                March 2020 <br />
+                GPA: 5.0 out of 5.0
+              </p>
+            </div>
+            <div class="education-img">
+              <img src="./img/clg.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="education-item">
+            <div class="education-info">
+              <h1>Secondary School Certificate</h1>
+              <h2>Kaneshtola High School</h2>
+              <p>
+                Feb. 2018 <br />
+
+                GPA: 5.0 out of 5.0
+              </p>
+            </div>
+            <div class="education-img">
+              <img src="./img/school.jpeg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End EDUCATION Section -->
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img class="img2" src="./img/dipta.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2>Full Stack Developer</h2>
+          <p>
+            I am a dedicated full-stack web developer with a strong command of
+            modern web technologies. Specializing in the MERN stack, I craft
+            intuitive, high-performance web applications that blend
+            functionality with seamless user experiences. My expertise spans
+            both front-end and back-end development, ensuring scalable and
+            efficient solutions. Passionate about innovation and
+            problem-solving, I continuously strive to push the boundaries of
+            web development, transforming ideas into elegant digital
+            solutions.
+          </p>
+          <a href="#" class="cta">Download Resume</a>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>(+880)18923283</h2>
+              <h2>(+880)86982154</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/new-post.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>diptakarmakar396@gmail.com</h2>
+              <!-- <h2>abcd@gmail.com</h2> -->
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Kuratoli, Kuril Bishwa Road, Dhaka, Bangladesh</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Contact Section -->
+    <div class="contact_us_2">
+      <div class="responsive-container-block big-container">
+        <div class="blueBG">
+        </div>
+        <div class="responsive-container-block container">
+          <form class="form-box">
+            <div class="container-block form-wrapper">
+              <p class="text-blk contactus-head">
+                Get in Touch
+              </p>
+              <br>
+              <br>
+              <!-- <p class="text-blk contactus-subhead">
+                  Nunc erat cursus tellus gravida.
+                </p> -->
+              <div class="responsive-container-block">
+                <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt">
+                  <p class="text-blk input-title">
+                    FIRST NAME
+                  </p>
+                  <input class="input" id="ijowk" name="FirstName" placeholder="Please enter first name...">
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title">
+                    LAST NAME
+                  </p>
+                  <input class="input" id="indfi" name="Last Name" placeholder="Please enter last name...">
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title">
+                    EMAIL
+                  </p>
+                  <input class="input" id="ipmgh" name="Email" placeholder="Please enter email...">
+                </div>
+                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk input-title">
+                    PHONE NUMBER
+                  </p>
+                  <input class="input" id="imgis" name="PhoneNumber" placeholder="Please enter phone number...">
+                </div>
+                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i">
+                  <p class="text-blk input-title">
+                    WHAT DO YOU HAVE IN MIND
+                  </p>
+                  <textarea class="textinput" id="i5vyy" placeholder="Please enter query..."></textarea>
+                </div>
+              </div>
+              <button class="submit-btn">
+                Submit
+              </button>
+            </div>
+            <!-- <div class="social-media-links">
+                <a href="#" id="ix94i-2">
+                  <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png">
+                </a>
+                <a href="#">
+                  <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png">
+                </a>
+                <a href="#">
+                  <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-google.png">
+                </a>
+                <a href="#" id="izldf-2">
+                  <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png">
+                </a> -->
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Dipt@</span><span></span></h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/dipta.karmakar.927?mibextid=wwXIfr&mibextid=wwXIfr" target="_blank"
+            rel="noopener noreferrer"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/dipta_karmakar?igsh=MXhzeDkwZmRhZGhnZg%3D%3D&utm_source=qr" target="_blank"
+            rel="noopener noreferrer"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/Dipta-karmakar" target="_blank" rel="noopener noreferrer"><img
+              src="https://img.icons8.com/bubbles/100/000000/github.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="http://linkedin.com/in/dipta-prattoy-karmakar" target="_blank" rel="noopener noreferrer"><img
+              src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2025 Dipta. All rights reserved</p>
+    </div>
+  </section>
+
+  <!-- End Footer -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+  <!-- <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
       integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
       crossorigin="anonymous"
@@ -762,26 +743,26 @@
       referrerpolicy="no-referrer"
     ></script> -->
 
-    <!--  Gsap is needed for Basic Effects -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <!--  Gsap is needed for Basic Effects -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
-    <!-- Scroll Trigger is needed for Scroll Effects -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!-- Scroll Trigger is needed for Scroll Effects -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
-    <!-- Three.js is needed for 3d Effects -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+  <!-- Three.js is needed for 3d Effects -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
 
-    <!-- ControlKit is needed for Debug Panel -->
-    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+  <!-- ControlKit is needed for Debug Panel -->
+  <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/sheryjs/dist/Shery.js"
-    ></script>
-    <!-- Recommended -->
-    <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+  <!-- Recommended -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- Recommended -->
-  </body>
+  <script src="./app.js"></script>
+
+  <!-- Recommended -->
+</body>
+
 </html>

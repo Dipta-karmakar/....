@@ -133,3 +133,7 @@ menu.addEventListener("click", () => {
 // import Shery from "sheryjs"; /*Don't use if using CDN*/
 
 // Shery.mouseFollower();
+var swiper = new Swiper(".mySwiper", {
+  effect: "cards",
+  grabCursor: true,
+});
