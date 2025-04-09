@@ -1909,6 +1909,8 @@ body::-webkit-scrollbar {
 }
 
 .resume {
+  height: 100%;
+  width: 100%;
   background-color: #dadada;
   display: flex;
   align-items: center;
