@@ -2030,8 +2030,9 @@ body::-webkit-scrollbar {
   font-size: 1.5vw;
   color: rgb(30, 65, 225);
 }
-.cg-projects,.projects,
- h3 {
+.cg-projects,
+.projects,
+h3 {
   margin-bottom: 2vw;
   /* margin-left: 20vw; */
   font-size: 1.5vw;
