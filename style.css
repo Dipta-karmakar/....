@@ -1907,3 +1907,19 @@ body::-webkit-scrollbar {
 #c-s-projects .c-s-projects-item:hover .c-s-projects-img img {
   transform: scale(1.1);
 }
+
+.resume {
+  background-color: #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+object {
+  display: flex;
+  margin-left: 36vw;
+  align-items: end;
+  width: 55%;
+  height: 80vh;
+  margin-top:-20vh;
+  /* margin-right: 10vw; */
+}
