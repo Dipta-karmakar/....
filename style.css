@@ -1908,6 +1908,136 @@ body::-webkit-scrollbar {
   transform: scale(1.1);
 }
 
+#dlc-projects,
+#services,
+#education,
+#about,
+#contact {
+  background-color: #dadada;
+}
+
+#dlc-projects .dlc-projects {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#dlc-projects .dlc-projects-header h1 {
+  margin-bottom: 50px;
+}
+#dlc-projects .all-dlc-projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* gap between items */
+  justify-content: center; /* optional for center alignment */
+  /* height: 100%;
+    width: 100%; */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+#dlc-projects .dlc-projects-item {
+  flex: 0 0 calc(50% - 20px); /* 3 columns */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  width: 100%;
+  margin: 20px auto;
+  margin-bottom: 60px;
+  overflow: hidden;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+/* #projects .project-info {
+  padding: 30px;
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  color: white;
+
+  border-radius: 5%;
+} */
+/* .project-info {
+  position: absolute;
+  visibility: hidden;
+} */
+#dlc-projects .dlc-projects-info h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+#dlc-projects .dlc-projects-info h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#dlc-projects .dlc-projects-info p {
+  color: white;
+}
+#dlc-projects .dlc-projects-img {
+  border-radius: 3%;
+  /* flex-basis: 50%; */
+  /* height: 300px;
+  width: 600px; */
+  overflow: hidden;
+  position: relative;
+  margin-left: 2vw;
+
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#dlc-projects .dlc-projects-img:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  opacity: 0.3;
+}
+#dlc-projects .dlc-projects-img img {
+  transition: 0.3s ease-in-out transform;
+  object-fit: fill;
+}
+#dlc-projects .dlc-projects-item:hover .dlc-projects-img img {
+  transform: scale(1.1);
+}
+
+.dlc-projects h3 {
+  font-family: "verdana";
+  font-size: 1.1vw;
+  font-weight: 400;
+  margin-left: 2vw;
+}
+
+.u-projects h3 {
+  font-weight: 400;
+  margin-left: 2vw;
+  font-family: "verdana";
+  font-size: 1.1vw;
+}
+.projects,
+.cg-projects h3 a {
+  font-family: "cascadia code";
+  /* margin-left: 20vw; */
+  font-size: 1.5vw;
+  color: rgb(30, 65, 225);
+}
+.cg-projects,.projects,
+ h3 {
+  margin-bottom: 2vw;
+  /* margin-left: 20vw; */
+  font-size: 1.5vw;
+  color: rgb(0, 0, 0);
+}
+
 .resume {
   height: 100%;
   width: 100%;
@@ -1922,6 +2052,6 @@ object {
   align-items: end;
   width: 55%;
   height: 80vh;
-  margin-top:-20vh;
+  margin-top: -20vh;
   /* margin-right: 10vw; */
 }
